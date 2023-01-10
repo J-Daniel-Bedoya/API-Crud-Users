@@ -33,7 +33,7 @@ const Users = db.define(
       allowNull: false,
     },
     date: {
-      type: DataTypes.STRING,
+      type: DataTypes.DATE,
       allowNull: false,
     },
   },
